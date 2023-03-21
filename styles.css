@@ -1,0 +1,242 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 14px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 100vw;
+    padding: 10px;
+    padding-bottom: 16px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    gap: 40px;
+}
+
+.sign-btn button{
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(35, 190, 170);
+    color: white;
+    font-size: 1.6rem;
+    padding: 2px 15px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 14px 80px;
+    width: 100vw;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 34%;
+    height: 100vh;
+}
+
+.col-2 {
+    width: 17%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+/* Col 1 */
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-decoration {
+    background-color: rgb(59, 176, 197);
+    border: 10px solid rgb(59, 176, 197);
+    height: 60px;
+    width: auto;
+    min-height: 70px;
+}
+
+.profile-pic {
+    width: 55px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.main-profile-pic {
+    width: 80px;
+    height: auto;
+}
+
+.jane-pic {
+    width: fit-content;
+    height: fit-content;
+    top: 38px;
+    left: 28px;
+    margin-top: -40px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    border: 2px solid rgba(114, 114, 114, 0.521);
+    gap: 16px;
+    padding-bottom: 40px;
+}
+
+.small-icon {
+    width: auto;
+    height: 20px;
+}
+
+.main-name {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.location,
+.profile-edit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    color: blue;
+}
+
+.self-description {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+/* Education container */
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(114, 114, 114, 0.521);
+}
+
+.sub-title-content {
+    color: white;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 12px;
+    padding-left: 18px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    padding-top: 10px;
+    gap: 15px;
+    font-size: 1.6rem;
+    height: 180px;
+    justify-content:flex-start;
+    overflow: hidden;
+}
+
+.duration {
+    font-size: 1rem;
+    color: gray;
+}
+
+/* Col 2 */
+
+.requests-container,
+.connections-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(114, 114, 114, 0.521);
+}
+
+.r-sub-title,
+.c-sub-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.counter {
+    border: 3px solid gray;
+    font-size: 30px;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(139, 139, 139);
+    width: fit-content;
+    margin-left: 15px;
+}
+
+.request-info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.request,
+.connection,
+.more {
+    display: flex;
+    padding: 12px 6px;
+    font-size: 1.3rem;
+    overflow: hidden;
+    align-items: center;
+}
+
+.request {
+    justify-content: space-between;
+}
+
+.connection {
+    gap: 10px;
+}
+
+.more {
+    border-top: 2px solid rgba(114, 114, 114, 0.521);
+}
+.buttons img  {
+    width: 32px;
+    height: 32px;
+}
+
+.requester {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
