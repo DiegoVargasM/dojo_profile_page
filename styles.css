@@ -90,6 +90,12 @@
     left: 28px;
     margin-top: -40px;
 }
+
+.jane-pic img {
+    border: 3px solid rgba(114, 114, 114, 0.521);
+    border-radius: 50%;
+}
+
 .contact-info {
     display: flex;
     flex-direction: column;
