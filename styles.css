@@ -66,36 +66,22 @@
 
 .card-decoration {
     background-color: rgb(59, 176, 197);
-    border: 10px solid rgb(59, 176, 197);
-    height: 60px;
     width: auto;
-    min-height: 70px;
+    min-height: 90px;
 }
 
-.profile-pic {
-    width: 55px;
-    height: auto;
-    border-radius: 50%;
-}
-
-.main-profile-pic {
+.jane-pic img {
     width: 80px;
     height: auto;
+    border: 2px solid rgba(114, 114, 114, 0.521);
+    border-radius: 50%;
 }
 
 .jane-pic {
     width: fit-content;
     height: fit-content;
-    top: 38px;
-    left: 28px;
     margin-top: -40px;
 }
-
-.jane-pic img {
-    border: 3px solid rgba(114, 114, 114, 0.521);
-    border-radius: 50%;
-}
-
 .contact-info {
     display: flex;
     flex-direction: column;
